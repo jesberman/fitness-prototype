@@ -3,7 +3,7 @@ import "../styles/Navbar.css";
 
 // By importing the Navbar.css file, it is added to the DOM whenever this component loads
 
-const JumbotronMyprofile = () => (
+const MyprofileMain = () => (
 
     <div class="jumbotron myprofile">
         <h1 class="standard-text">#Profile Name</h1>
@@ -46,7 +46,7 @@ const JumbotronMyprofile = () => (
         <br></br>
         <br></br>
 
-        <div id ="chart">
+        <div id="chart">
 
             <h2 class="standard-text">
                 #Profile Fitness Chart
@@ -66,8 +66,10 @@ const JumbotronMyprofile = () => (
         <div id="calendar">
 
         </div>
+        <script src="../logic.js">
+        </script>
     </div>
 
 );
 
-export default JumbotronMyprofile;
+export default MyprofileMain;

@@ -10,9 +10,7 @@ const JumbotronLogin = () => (
         <br></br>
         <h1 id="title" class="display-3">or Login</h1>
         <p class="lead standard-text"></p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg standard-text" id="learn-button" href="#" role="button">Learn more</a>
-      
+        <p class="lead">      
         </p>
     </div>
 );

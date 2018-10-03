@@ -36,7 +36,7 @@ let lineChart = new Chart(CHART, {
                 pointHoverBorderWidth: 2,
                 //pointRadius: 1,
                 //pointHitRadius:10,
-                data: [165,59,80,81,56,55,8]
+                data: [65,59,80,81,56,55,80]
             }
         ]
 
