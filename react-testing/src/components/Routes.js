@@ -5,6 +5,8 @@ import AboutPage from "./AboutPage";
 import ContactPage from "./ContactPage";
 import LoginPage from "./LoginPage";
 import MyprofileMain from "./Myprofile-main";
+import ChartPage from "./ChartPage";
+import JournalMain from "./Journal-main";
 
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -23,6 +25,8 @@ const Routes = () => (
                     <Route exact path="/contact" component={ContactPage} />
                     <Route exact path="/login" component={LoginPage} />
                     <Route exact path="/myprofile" component={MyprofileMain} />
+                    <Route exact path="/chart" component={ChartPage} />
+                    <Route exact path="/journal" component={JournalMain} />
 
                 </Switch>
             </div>

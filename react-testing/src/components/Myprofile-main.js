@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Navbar.css";
+import Chart from "./Chart";
+
 
 // By importing the Navbar.css file, it is added to the DOM whenever this component loads
 
@@ -51,9 +53,10 @@ const MyprofileMain = () => (
             <h2 class="standard-text">
                 #Profile Fitness Chart
             </h2>
+            < Chart />
 
-            <canvas id="lineChart" height="40">
-            </canvas>
+            {/* <canvas id="lineChart" height="40">
+            </canvas> */}
 
         </div>
         <br></br>

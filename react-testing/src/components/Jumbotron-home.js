@@ -11,7 +11,7 @@ const JumbotronHome = () => (
                 <hr class="my-4">
                 </hr>
                 <p class="lead">
-                    <a class="btn btn-primary btn-lg standard-text" id="learn-button" href="about.html" role="button">Learn more</a>
+                    <a class="btn btn-primary btn-lg standard-text" id="learn-button" href="about" role="button">Learn more</a>
                 </p>
             </div>
 );

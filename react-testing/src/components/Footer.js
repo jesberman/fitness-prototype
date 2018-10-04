@@ -6,42 +6,46 @@ import "../styles/Navbar.css";
 const Footer = () => (
 
     <footer id="foot3" class="page-footer font-small cyan darken-3">
-        <div class="row">
 
-            <div class="col-md-12 py-5">
-                <div class="mb-5 flex-center">
+        <div id="extra">
+            <div class="row">
 
-                    <a class="fb-ic">
-                        <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <a class="tw-ic">
-                        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <a class="gplus-ic">
-                        <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <a class="li-ic">
-                        <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <a class="ins-ic">
-                        <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                    </a>
-                    <a class="pin-ic">
-                        <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
-                    </a>
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 flex-center">
+
+                        <a class="fb-ic">
+                            <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="tw-ic">
+                            <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="gplus-ic">
+                            <i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="li-ic">
+                            <i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="ins-ic">
+                            <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                        </a>
+                        <a class="pin-ic">
+                            <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
                 </div>
+
             </div>
 
-        </div>
+            <div class="col-md-6 mb-4">
 
-        <div class="col-md-6 mb-4">
+                <form class="input-group">
+                    <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2"></input>
+                    <div class="input-group-append">
+                        <button class="btn btn-sm btn-outline-white" type="button">Sign up</button>
+                    </div>
+                </form>
 
-            <form class="input-group">
-                <input type="text" class="form-control form-control-sm" placeholder="Your email" aria-label="Your email" aria-describedby="basic-addon2"></input>
-                <div class="input-group-append">
-                    <button class="btn btn-sm btn-outline-white" type="button">Sign up</button>
-                </div>
-            </form>
+            </div>
 
         </div>
 

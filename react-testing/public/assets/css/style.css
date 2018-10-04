@@ -11,6 +11,10 @@ body {
     background-color: coral;
 }
 
+#extra {
+    visibility: hidden;
+}
+
 .standard-text {
     position: relative;
     text-align: left;
@@ -111,7 +115,17 @@ body {
 
 }
 
+.journal {
+    background-color: rgb(23, 91, 201);
+}
+
 #learn-button {
+    border-radius: 10px;
+    background-color: rgb(49, 184, 214);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#journal-button {
     border-radius: 10px;
     background-color: rgb(49, 184, 214);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -193,15 +207,12 @@ body {
 }
 
 #chart {
-    position: relative; 
-    width: 700px;
+     width: 400px;
 }
 
 #lineChart {
-    background-color: white;
-    opacity: 1.0;
-}
 
+}
 
 #calendar {
     position: relative;
@@ -217,6 +228,10 @@ body {
     visibility: hidden;
 }
 
+
+.recharts-surface {
+    background-color: white;
+}
 
 /*------------------ Experimental Navbar------------*/
 

@@ -1,1 +1,1 @@
-# fitness-prototype
+# FitnessApp

@@ -10,9 +10,10 @@ const Navbar = () => (
       <h5 >Fitness Tracker</h5>
     </a>
     <a href="/about">About</a>
-    <a href="contact">Contact</a>
     <a href="login">Login</a>
     <a href="myprofile">MyProfile</a>
+    <a href ="journal">Journal</a>
+    <a href="contact">Contact</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
