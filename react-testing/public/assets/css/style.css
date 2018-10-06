@@ -2,13 +2,31 @@ body {
     background-image: linear-gradient(to bottom right, rgb(160, 55, 186), teal); 
    /*background-image: linear-gradient(to bottom right, rgb(63, 238, 230), rgb(252, 68, 69));*/ 
    /*background-image: linear-gradient(to bottom right,  rgb(252, 68, 69), rgb(63, 238, 230));*/
+   /* background-size: 100%;
 
+   background-position: center;
+   background-size: cover;
+   position: relative; */
+   /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+  
+  background-attachment: fixed;
+  height: 100%;
+  background-repeat: no-repeat;
 
 }
 
 #foot3 {
     opacity: 1;
     background-color: coral;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55x;
+
 }
 
 #extra {

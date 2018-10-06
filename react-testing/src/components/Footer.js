@@ -7,7 +7,7 @@ const Footer = () => (
 
     <footer id="foot3" class="page-footer font-small cyan darken-3">
 
-        <div id="extra">
+        {/* <div id="extra">
             <div class="row">
 
                 <div class="col-md-12 py-5">
@@ -47,7 +47,7 @@ const Footer = () => (
 
             </div>
 
-        </div>
+        </div> */}
 
         <div class="footer-copyright text-center py-3">© 2018 Copyright:
     <a href="https://mdbootstrap.com/bootstrap-tutorial/"> fitnesstracker.com</a>
