@@ -15,14 +15,16 @@ const LoginCards = () => (
             <div class="card-body">
                 <form action="/action_page.php">
                     Username:
-                    <input type="text" name="Username" value="">
+                    <input type="text" name="Username" defaultValue="">
                     </input>
                     <br></br> Password:
-                    <input class="pass" type="text" name="password" value="">
+                    <input class="pass" type="text" name="password" defaultValue="">
                     </input>
                     <br></br>
-                    <input type="submit" value="Submit">
-                    </input>
+                    {/* <input type="submit" value="Submit">
+                    </input> */}
+                    <a class="btn btn-primary btn-md standard-text" id="signup-button" href="" role="button">Submit</a>
+
                 </form>
             </div>
         </div>
@@ -36,15 +38,17 @@ const LoginCards = () => (
             <div class="card-body">
                 <form action="/action_page.php">
                     Username:
-                    <input type="text" name="Username" value="">
+                    <input type="text" name="Username" defaultValue="">
                     </input>
                     <br></br> 
                     Password:
-                    <input class="pass" type="text" name="password" value="">
+                    <input class="pass" type="text" name="password" defaultValue="">
                     </input>
                     <br></br>
-                    <input type="submit" value="Submit">
-                    </input>
+                    {/* <input type="submit" value="Submit">
+                    </input> */}
+                    <a class="btn btn-primary btn-md standard-text" id="signup-button" href="" role="button">Submit</a>
+
                 </form>
             </div>
         </div>

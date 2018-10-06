@@ -36,6 +36,14 @@ const JournalMain = () => (
         <br></br>
         <br></br>
 
+        <h2 class="standard-text">
+            Please enter any comments you may have about your workout today
+        </h2>
+        <textarea id = "journal-entry"></textarea>
+
+        <br></br>
+        <br></br>
+        <br></br>
         <p class="lead">
             <a class="btn btn-primary btn-lg standard-text" id="journal-button" href="" role="button">Submit</a>
         </p>

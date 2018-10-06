@@ -72,7 +72,7 @@ body {
 
 .about {
     height: 100px;
-    width: 1300px;
+    width: 90vw;
     margin:0 auto;
     background-position: 75% 55%;
     margin-bottom: 60px;
@@ -82,7 +82,7 @@ body {
 
 .contact {
     height: 100px;
-    width: 1300px;
+    width: 90vw;
     margin:0 auto;
     margin-bottom: 60px;
 
@@ -102,7 +102,7 @@ body {
 
 .login {
     height: 100px;
-    width: 1300px;
+    width: 90vw;
     margin:0 auto;
     margin-bottom: 60px;
     background-position: 75% 13%;
@@ -116,7 +116,7 @@ body {
 }
 
 .journal {
-    background-color: rgb(23, 91, 201);
+    background-color: #659EBC;
 }
 
 #learn-button {
@@ -130,6 +130,29 @@ body {
     background-color: rgb(49, 184, 214);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+#signup-button {
+
+    border-radius: 10px;
+    background-color: rgb(49, 184, 214);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+}
+
+#login-button {
+
+    border-radius: 10px;
+    background-color: rgb(49, 184, 214);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+
+}
+
+#journal-entry {
+
+    width: 600px;
+    height: 200px;
 }
 
 .container {
@@ -163,7 +186,7 @@ body {
     text-align: justify;
     font-weight: bold;
     margin: auto;
-    width: 1300px;
+    width: 90vw;
     color: white;
     text-shadow: 3px 3px 4px #000000;
     
